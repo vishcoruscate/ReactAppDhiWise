@@ -1,0 +1,33 @@
+<svg width="34" height="33" viewBox="0 0 34 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g opacity="0.5">
+<path d="M21.9999 18.0504V14.3334C21.9999 11.0197 19.3136 8.33337 15.9999 8.33337C12.6862 8.33337 9.99992 11.0197 9.99992 14.3334V18.0504C9.99992 19.5283 9.49696 20.9621 8.57377 22.1161C8.02195 22.8058 8.42289 23.8343 9.29597 23.9687L10.4513 24.1464C14.1287 24.7122 17.8711 24.7122 21.5486 24.1464L22.7039 23.9687C23.5769 23.8343 23.9779 22.8058 23.4261 22.1161C22.5029 20.9621 21.9999 19.5283 21.9999 18.0504Z" stroke="white" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M16 7.66671V6.33337" stroke="white" stroke-width="2.25" stroke-linecap="round"/>
+<circle cx="16" cy="25.6666" r="2" fill="white"/>
+</g>
+<g filter="url(#filter0_ddi_103_799)">
+<circle cx="28" cy="5" r="4" fill="#FF59F8"/>
+</g>
+<defs>
+<filter id="filter0_ddi_103_799" x="22" y="0" width="12" height="12" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="1"/>
+<feGaussianBlur stdDeviation="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_103_799"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="effect2_dropShadow_103_799"/>
+<feOffset/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0"/>
+<feBlend mode="normal" in2="effect1_dropShadow_103_799" result="effect2_dropShadow_103_799"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_103_799" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feMorphology radius="1" operator="dilate" in="SourceAlpha" result="effect3_innerShadow_103_799"/>
+<feOffset dy="2"/>
+<feGaussianBlur stdDeviation="0.25"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.35 0"/>
+<feBlend mode="normal" in2="shape" result="effect3_innerShadow_103_799"/>
+</filter>
+</defs>
+</svg>

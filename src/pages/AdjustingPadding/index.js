@@ -1,0 +1,200 @@
+import React from "react";
+import { STRINGS } from "../../constants/string";
+import { Column } from "../../components/Column";
+import { Row } from "../../components/Row";
+import { Stack } from "../../components/Stack";
+import { Text } from "../../components/Text";
+import { Image } from "../../components/Image";
+import { Button } from "../../components/Button";
+
+const AdjustingPaddingPage = () => {
+  return (
+    <Column
+      className="adjustingpaddi"
+      layoutGravity={0}
+      gravity={0}
+      mainAxisAlignment={"start"}
+      crossAxisAlignment={"start"}
+      width={1920}
+      isExpanded={0}
+      left={0}
+      right={0}
+    >
+      <Row
+        className="group85"
+        layoutGravity={33}
+        gravity={0}
+        mainAxisAlignment={"start"}
+        crossAxisAlignment={"center"}
+        width={1920}
+        isExpanded={0}
+        left={0}
+        right={0}
+      >
+        <Column
+          className="group83"
+          layoutGravity={11}
+          gravity={0}
+          mainAxisAlignment={"start"}
+          crossAxisAlignment={"center"}
+          width={484}
+          isExpanded={true}
+          left={0}
+          right={0}
+        >
+          <Stack
+            className="group84"
+            layoutGravity={12}
+            gravity={0}
+            mainAxisAlignment={""}
+            crossAxisAlignment={""}
+            width={340}
+            isExpanded={0}
+            left={0}
+            right={0}
+          >
+            <Column
+              className="copy8"
+              layoutGravity={4}
+              gravity={0}
+              mainAxisAlignment={"start"}
+              crossAxisAlignment={"start"}
+              width={340}
+              isExpanded={0}
+              left={0}
+              right={0}
+            >
+              <Text
+                className="adjustingpaddi2"
+                layoutGravity={33}
+                gravity={1}
+                mainAxisAlignment={""}
+                crossAxisAlignment={""}
+                width={340}
+                isExpanded={0}
+                left={0}
+                right={0}
+              >
+                {STRINGS["msg_adjusting_paddi"] || ""}
+              </Text>
+              <Text
+                className="justlikeincs"
+                layoutGravity={33}
+                gravity={1}
+                mainAxisAlignment={""}
+                crossAxisAlignment={""}
+                width={340}
+                isExpanded={0}
+                left={0}
+                right={0}
+              >
+                {STRINGS["msg_just_like_in_cs"] || ""}
+              </Text>
+              <Image
+                src="img_image16.png"
+                alt="image16"
+                className="image163"
+                layoutGravity={33}
+                gravity={0}
+                mainAxisAlignment={""}
+                crossAxisAlignment={""}
+                width={340}
+                left={0}
+                right={0}
+              />
+            </Column>
+            <Column
+              className="instructions2"
+              layoutGravity={7}
+              gravity={0}
+              mainAxisAlignment={"start"}
+              crossAxisAlignment={"center"}
+              width={305}
+              isExpanded={0}
+              left={35}
+              right={0}
+            >
+              <Image
+                src="img_arrow_2.svg"
+                alt="Arrow"
+                className="arrow4"
+                layoutGravity={44}
+                gravity={0}
+                mainAxisAlignment={""}
+                crossAxisAlignment={""}
+                width={59.89}
+                left={203}
+                right={42.109985}
+              />
+              <Text
+                className="adjustmetoch"
+                layoutGravity={33}
+                gravity={3}
+                mainAxisAlignment={""}
+                crossAxisAlignment={""}
+                width={305}
+                isExpanded={0}
+                left={0}
+                right={0}
+              >
+                {STRINGS["msg_adjust_me_to_ch"] || ""}
+              </Text>
+            </Column>
+          </Stack>
+        </Column>
+        <Column
+          className="instructions3"
+          layoutGravity={10}
+          gravity={0}
+          mainAxisAlignment={"start"}
+          crossAxisAlignment={"center"}
+          width={376}
+          isExpanded={0}
+          left={10}
+          right={0}
+        >
+          <Button
+            className="group12"
+            layoutGravity={44}
+            gravity={9}
+            mainAxisAlignment={""}
+            crossAxisAlignment={""}
+            width={238}
+            isExpanded={0}
+            left={104}
+            right={34}
+          >
+            {STRINGS["msg_hi_i_m_a_butto"] || ""}
+          </Button>
+          <Image
+            src="img_arrow_3.svg"
+            alt="Arrow"
+            className="arrow5"
+            layoutGravity={33}
+            gravity={0}
+            mainAxisAlignment={""}
+            crossAxisAlignment={""}
+            width={51.48}
+            left={142.81006}
+            right={181.70996}
+          />
+          <Text
+            className="selectmeanda"
+            layoutGravity={33}
+            gravity={3}
+            mainAxisAlignment={""}
+            crossAxisAlignment={""}
+            width={376}
+            isExpanded={0}
+            left={0}
+            right={0}
+          >
+            {STRINGS["msg_select_me_and_a"] || ""}
+          </Text>
+        </Column>
+      </Row>
+    </Column>
+  );
+};
+
+export default AdjustingPaddingPage;

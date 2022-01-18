@@ -1,0 +1,6 @@
+
+ @font-face { src: url("../assets/fonts/interextrabold400.ttf"); font-family : "Inter"; font-style : ExtraBold; font-weight : 400;  }
+ @font-face { src: url("../assets/fonts/interbold700.ttf"); font-family : "Inter"; font-style : Bold; font-weight : 700;  }
+ @font-face { src: url("../assets/fonts/intersemibold400.ttf"); font-family : "Inter"; font-style : SemiBold; font-weight : 400;  }
+ @font-face { src: url("../assets/fonts/interregular400.ttf"); font-family : "Inter"; font-style : Regular; font-weight : 400;  }
+ @font-face { src: url("../assets/fonts/intermedium500.ttf"); font-family : "Inter"; font-style : Medium; font-weight : 500;  }
